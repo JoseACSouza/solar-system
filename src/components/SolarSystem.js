@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Title from './Title';
+import PlanetList from './PlanetList';
 
 class SolarSystem extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class SolarSystem extends React.Component {
         <Title
           headline={ headline }
         />
+        <PlanetList />
       </div>
     );
   }
